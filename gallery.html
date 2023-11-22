@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manolo's Pizza</title>
+    <link rel="icon" href="img/Logo_pizza.ico" type="image/png">
+    <style>
+        .principal {
+            min-height: calc(100vh - 120px);
+            padding: 20px;
+            position: relative;
+            /* Añade esta línea */
+            margin-bottom: 300px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #2c4c0c;
+        }
+
+        header {
+            position: relative;
+            background-image: url(img/Fondo-header.jpeg);
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+            margin: 0;
+            text-shadow: 5px 5px 2px black;
+            font-size: 100px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        h3 {
+            text-align: center;
+            background-color: #ffffff;
+            margin-left: 20%;
+            margin-right: 20%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+        nav {
+            background-color: #a31304;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, ;
+            font-weight: bold;
+        }
+
+        table {
+            background-color: #a0a0a0;
+           
+        }
+
+        th {
+            padding: 2%;
+            background-color: #fc9c24 ;
+        }
+
+        td {
+            background-color: #f0cc94;
+        }
+
+         /*Segunda columna*/
+         td:nth-child(2) {
+        background-color: #f3d6a8;
+            font-size: 150%;
+    }
+
+       td > img {
+            display: block;
+            width: 50%;
+            margin: auto;
+            margin-top: 2%;
+        }
+
+        footer {
+            background-color: #000000;
+            margin-top: 300px;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Manolo's Pizza</h1>
+        <nav>
+            <ul>
+                <li class="current"><a href="index.html">INICIO</a></li>
+                <li><a href="gallery.html">GALERÍA</a></li>
+                <li><a href="contact.html">CONTACTO</a></li>
+                <li><a href="ubi.html">UBICACIÓN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="principal">
+        <table border="1">
+            <tr>
+                <th>PIZZA</th>
+                <th>INGREDIENTES</th>
+            </tr>
+            <tr>
+                <td><img src="img/pizza carbonara.jpg"><h3>PIZZA CARBONARA</h3></td>
+                <td>
+                    <ul>
+                        <li>Tomate</li>
+                        <li>Salsa carbonara</li>
+                        <li>Bacon</li>
+                        <li>Champiñones</li>
+                        <li> Mezcla de 5 quesos (gouda, emmental, cheddar, mozzarella y havarti)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/Pizza-peras-espinacas-quesoazul.jpg"><h3>PIZZA DE PERAS, ESPINACAS Y QUESO AZUL</h3></td>
+                <td>
+                    <ul>
+                        <li>Tomate</li>
+                        <li>Peras blanquillas</li>
+                        <li>Espinacas</li>
+                        <li>Queso azul</li>
+                        <li>Queso mozzarella</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/pizza barbacoa.jpg"><h3>PIZZA BARBACOA</h3></td>
+                <td>
+                    <ul>
+                        <li>Tomate</li>
+                        <li>Bacon</li>
+                        <li>Pollo</li>
+                        <li>Salsa barbacoa</li>
+                        <li>Doble carne de vacuno</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/pizza cesar deluxe.jpg"><h3>PIZZA CÉSAR DELUXE</h3></td>
+                <td>
+                    <ul>
+                        <li>Tomate</li>
+                        <li>Rúcula</li>
+                        <li>Pops de pollo</li>
+                        <li>Bacon crispy</li>
+                        <li>Salsa césar</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>Sistemas Microinformáticos en Rede &middot; Aplicacións Web</p>
+        <p><img src="img/Logo_pizza.ico" alt="Logo" style="width: 20px; height: 20px;"> Manolo's Pizza &middot;
+            <a href="https://migleisla97.github.io" target="_blank">Github</a>
+        </p>
+    </footer>
+</body>
+
+</html>

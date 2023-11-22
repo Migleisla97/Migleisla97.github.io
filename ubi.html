@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manolo's Pizza</title>
+    <link rel="icon" href="img/Logo_pizza.ico" type="image/png">
+    <style>
+        .principal {
+            min-height: calc(100vh - 120px);
+            padding: 20px;
+            position: relative;
+            /* Añade esta línea */
+            margin-bottom: 300px;
+        }
+
+        header {
+            position: relative;
+            background-image: url(img/Fondo-header.jpeg);
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            text-align: center;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #2c4c0c;
+        }
+
+        nav {
+            background-color: #a31304;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, ;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+            margin: 0;
+            text-shadow: 5px 5px 2px black;
+            font-size: 100px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            text-align: center;
+            color: #fff;
+            background-color: #fc9c24;
+            padding: 10px;
+            margin-left: 35%;
+            margin-right: 21%;
+            margin-top: 5px;
+        }
+
+        .map {
+            margin-left:35%;
+        }
+
+        footer {
+            background-color: #000000;
+            margin-top: 300px;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Manolo's Pizza</h1>
+        <nav>
+            <ul>
+                <li class="current"><a href="index.html">INICIO</a></li>
+                <li><a href="gallery.html">GALERÍA</a></li>
+                <li><a href="contact.html">CONTACTO</a></li>
+                <li><a href="ubi.html">UBICACIÓN</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="principal">
+    <h2>Encuentranos</h2>
+    <div class="map">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1473.3237406757514!2d-8.704876607495441!3d42.39265560385199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f6f75fa7e265d%3A0x7e001966e07c3dc7!2zUsO6YSBTZXJhZsOtbiBUdWLDrW8sIDcsIDM2OTAwIE1hcsOtbiwgUG9udGV2ZWRyYQ!5e0!3m2!1ses!2ses!4v1700430204595!5m2!1ses!2ses"
+        width="800" height="800" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+    <footer>
+        <p>Sistemas Microinformáticos en Rede &middot; Aplicacións Web</p>
+        <p><img src="img/Logo_pizza.ico" alt="Logo" style="width: 20px; height: 20px;"> Manolo's Pizza &middot;
+            <a href="https://migleisla97.github.io" target="_blank">Github</a>
+        </p>
+    </footer>
+</body>
+
+</html>
